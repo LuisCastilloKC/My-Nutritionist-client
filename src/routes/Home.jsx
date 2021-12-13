@@ -1,5 +1,5 @@
 import React from 'react'
-import LogIn from '../components/LogIn'
+import LogInForm from '../components/LogInForm'
 
 const Home = () => {
     return (
@@ -7,7 +7,7 @@ const Home = () => {
             <div>
              Home page
             </div>
-        <LogIn />
+        <LogInForm />
         </>
     )
 }
