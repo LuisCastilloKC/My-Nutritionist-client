@@ -18,7 +18,7 @@ class SignUp extends Component {
     render(){
         return(
             <form>
-                <h1>Sign Up Form</h1>
+                <h1>Nutritionist <br /><center>Sign Up </center></h1>
                 <label>Username :</label>
                 <input name='username' value={this.state.username} onChage={this.handleChange} />
                 <label>Password :</label>
