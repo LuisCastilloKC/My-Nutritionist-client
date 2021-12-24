@@ -2,6 +2,7 @@ import './App.css'
 import { Component } from 'react';
 import SignUp from './components/SignUp'
 import LogInForm from './components/LogInForm'
+import Navigation from './components/Navigation';
 
 class App extends Component {
 
@@ -12,8 +13,10 @@ class App extends Component {
 render(){
     return (
             <div className="App">
+                <Navigation/>
                 <SignUp />
                 <LogInForm />
+                
             </div>
         );
     }
