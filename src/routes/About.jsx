@@ -5,7 +5,14 @@ const About = () => {
 
     return (
         <div>
-            <h1> I'm about page</h1>
+            <center> 
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1> I'm about page</h1>
+            </center>
         </div>
     );
 };

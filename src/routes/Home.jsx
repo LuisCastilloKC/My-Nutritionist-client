@@ -6,11 +6,11 @@ const Home = () => {
         <> 
             <div>
                 <center>
-                   <br></br>
-                   <br></br>
-                   <br></br>
-                   <br></br>
-                   <br></br>
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
                     <h1> This is the Home Page</h1>  
                 </center>
             </div>

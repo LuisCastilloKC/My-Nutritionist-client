@@ -6,6 +6,7 @@ import LogIn from './routes/LogIn'
 import Appointments from './components/Appointments'
 import SignUp from './routes/SignUp'
 import Navigation from './components/Navigation';
+import About from './routes/About'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/login" element={<LogIn />} />
                     <Route path="/signup" element={<SignUp />} />
                     <Route path="/appointments" element={<Appointments />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
         </div>
         );
