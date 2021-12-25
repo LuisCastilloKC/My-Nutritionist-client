@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './routes/Home'
 import LogIn from './routes/LogIn'
 import Appointments from './components/Appointments'
-import SignUp from './components/SignUp'
+import SignUp from './routes/SignUp'
 import Navigation from './components/Navigation';
 
 const App = () => {

@@ -14,6 +14,7 @@ const Navigation = () => {
          
                  <Nav.Link href="/about">About us</Nav.Link>
                  <Nav.Link href="/login">LogIn</Nav.Link>
+                 <Nav.Link href="/signup">SignUp</Nav.Link>
                 
 
             
