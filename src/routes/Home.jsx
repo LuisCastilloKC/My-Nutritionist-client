@@ -1,13 +1,19 @@
 import React from 'react'
-import LogInForm from '../components/LogInForm'
+
 
 const Home = () => {
     return (
         <> 
             <div>
-             Home page
+                <center>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                   <br></br>
+                    <h1> This is the Home Page</h1>  
+                </center>
             </div>
-        <LogInForm />
         </>
     )
 }
