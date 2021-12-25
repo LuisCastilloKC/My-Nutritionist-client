@@ -1,24 +1,24 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import { Component } from 'react';
+import React from 'react';
+import Home from './routes/Home'
+import LogIn from './routes/LogIn'
+import Appointments from './components/Appointments'
 import SignUp from './components/SignUp'
-import LogInForm from './components/LogInForm'
 import Navigation from './components/Navigation';
 
-class App extends Component {
+const App = () => {
 
-    state = {
-        user: {}
-    }
-
-render(){
-    return (
-            <div className="App">
-                <Navigation/>
-                <SignUp />
-                <LogInForm />
-                
-            </div>
+    return ( 
+        <div className="App">
+            <Navigation />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<LogIn />} />
+                    <Route path="/signup" element={<SignUp />} />
+                    <Route path="/appointments" element={<Appointments />} />
+                </Routes>
+        </div>
         );
-    }
 }
 export default App;
