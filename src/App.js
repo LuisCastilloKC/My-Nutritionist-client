@@ -7,11 +7,13 @@ import Appointments from './components/Appointments'
 import SignUp from './routes/SignUp'
 import Navigation from './components/Navigation';
 import About from './routes/About'
+import GlobalStyles from './styles/Global';
 
 const App = () => {
 
     return ( 
         <div className="App">
+            <GlobalStyles />
             <Navigation />
                 <Routes>
                     <Route path="/" element={<Home />} />
