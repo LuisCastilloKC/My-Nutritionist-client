@@ -1,6 +1,6 @@
 import React from 'react';
 import  { NotificationsNone }  from '@material-ui/icons';
-import { TopNav, TopNavWrapper } from './topNavElements';
+import { Logo, TopIconBadge, TopNav, TopNavIconContainer, TopNavWrapper } from './topNavElements';
 
 
 const Topnav = () =>{
@@ -9,14 +9,14 @@ const Topnav = () =>{
         
         <TopNav>
             <TopNavWrapper>
-                <div className='topLeft'>
+                <Logo>
                     <span className='logo'>My Nutritionist</span>
-                </div>
+                </Logo>
                 <div className='topRight'>
-                    <div className='topnavIconContainer'>
+                    <TopNavIconContainer>
                         <NotificationsNone />
-                        <span className='topIconBadge'>2</span>
-                    </div>
+                        <TopIconBadge>2</TopIconBadge>
+                    </TopNavIconContainer>
                 </div>
             </TopNavWrapper>
         </TopNav>

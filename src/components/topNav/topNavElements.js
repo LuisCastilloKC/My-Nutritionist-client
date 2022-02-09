@@ -25,6 +25,16 @@ export const TopNavIconContainer = styled.div`
     position: relative;
 `
 
-export const TopIconBadge = styled.div`
+export const TopIconBadge = styled.span`
+width: 15px;
     position: absolute;
+    top: -5px;
+    right: 5px;
+    background-color: green;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
 `
