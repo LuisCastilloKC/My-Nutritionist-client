@@ -1,15 +1,26 @@
 import React from 'react';
+import  { NotificationsNone }  from '@material-ui/icons';
+import { TopNav, TopNavWrapper } from './topNavElements';
 
-const TopNav = () =>{
+
+const Topnav = () =>{
 
     return(
-        <div className='topnav'>
-            <div className='topnavWrapper'>
-                <div className='topLeft'>My Nutritionist</div>
-                <div className='topRight'>UserProfile</div>
-            </div>
-        </div>
+        
+        <TopNav>
+            <TopNavWrapper>
+                <div className='topLeft'>
+                    <span className='logo'>My Nutritionist</span>
+                </div>
+                <div className='topRight'>
+                    <div className='topnavIconContainer'>
+                        <NotificationsNone />
+                        <span className='topIconBadge'>2</span>
+                    </div>
+                </div>
+            </TopNavWrapper>
+        </TopNav>
     );
 };
 
-export default TopNav;
+export default Topnav;
