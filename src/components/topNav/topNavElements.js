@@ -1,9 +1,12 @@
 import styled from 'styled-components'
 
 export const TopNav = styled.div`
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 50px;
     background-color: #FFFFFF;
+    z-index: 999;
 `
 
 export const TopNavWrapper = styled.div`
@@ -45,4 +48,11 @@ width: 15px;
     align-items: center;
     justify-content: center;
     font-size: 12px;
+`
+
+export const ProfilePicture = styled.img`
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
 `
