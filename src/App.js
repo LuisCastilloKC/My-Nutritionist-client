@@ -8,13 +8,19 @@ import Navigation from './components/Navigation';
 import About from './routes/About'
 import GlobalStyles from './styles/Global';
 import TopNav from './components/topNav';
+import Sidenav from './components/sideNav';
+import { SideNavContainer } from './appElements'
 
 const App = () => {
 
     return ( 
         <div className="App">
             <GlobalStyles />
-            <TopNav />
+            <TopNav />  
+            <SideNavContainer>
+                <Sidenav />
+                
+            </SideNavContainer>
             <Navigation />
                 <Routes>
                     <Route path="/" element={<Home />} />

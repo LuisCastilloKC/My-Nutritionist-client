@@ -24,8 +24,7 @@ const Topnav = () =>{
                     <TopNavIconContainer>
                         <Settings />
                     </TopNavIconContainer>
-                    <ProfilePicture src="https://images.pexels.com/photos/3789888/pexels-photo-3789888.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""/>
-                    
+                    <ProfilePicture src="https://images.pexels.com/photos/3789888/pexels-photo-3789888.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""/>         
                 </TopRight>
             </TopNavWrapper>
         </TopNav>
