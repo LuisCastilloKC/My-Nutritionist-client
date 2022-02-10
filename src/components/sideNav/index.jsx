@@ -1,6 +1,6 @@
 import React from 'react';
 import { SideNav } from './sideNavElements';
-import { LineStyle } from '@material-ui/icons'
+import { LineStyle, DateRange, Person  } from '@material-ui/icons'
 
 const Sidenav = () => {
 
@@ -15,11 +15,11 @@ const Sidenav = () => {
                             Meal Plan
                         </li>
                         <li className='sideNavListItem'>
-                            <LineStyle />
+                            <DateRange/>
                             Appointment
                         </li>
                         <li className='sideNavListItem'>
-                            <LineStyle />
+                            <Person />
                             Clients
                         </li>
                    </ul>
