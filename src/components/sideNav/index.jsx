@@ -1,13 +1,13 @@
 import React from 'react';
-import { SideNav } from './sideNavElements';
+import { SideNav, SideNavWrapper, SideNavMenu } from './sideNavElements';
 import { LineStyle, DateRange, Person  } from '@material-ui/icons'
 
 const Sidenav = () => {
 
     return(
         <SideNav>
-           <div className='sideNavWrapper'>
-               <div className="sideNavMenu">
+           <SideNavWrapper>
+               <SideNavMenu>
                    <h3 className='sideNavTitle'>Dashboard</h3>
                    <ul className='sideNavList'>
                         <li className='sideNavListItem'>
@@ -23,8 +23,8 @@ const Sidenav = () => {
                             Clients
                         </li>
                    </ul>
-               </div>
-           </div>
+               </SideNavMenu>
+           </SideNavWrapper>
         </SideNav>
     );
 };
