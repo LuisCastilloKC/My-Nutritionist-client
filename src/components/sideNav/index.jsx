@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideNav, SideNavWrapper, SideNavMenu, SideNavTitle } from './sideNavElements';
+import { SideNav, SideNavWrapper, SideNavMenu, SideNavTitle, SideNavList, SideNavListItem } from './sideNavElements';
 import { LineStyle, DateRange, Person  } from '@material-ui/icons'
 
 const Sidenav = () => {
@@ -9,20 +9,20 @@ const Sidenav = () => {
            <SideNavWrapper>
                <SideNavMenu>
                    <SideNavTitle>Dashboard</SideNavTitle>
-                   <ul className='sideNavList'>
-                        <li className='sideNavListItem'>
+                   <SideNavList>
+                        <SideNavListItem active>
                             <LineStyle />
                             Meal Plan
-                        </li>
-                        <li className='sideNavListItem'>
+                        </SideNavListItem>
+                        <SideNavListItem>
                             <DateRange/>
                             Appointment
-                        </li>
-                        <li className='sideNavListItem'>
+                        </SideNavListItem>
+                        <SideNavListItem>
                             <Person />
                             Clients
-                        </li>
-                   </ul>
+                        </SideNavListItem>
+                   </SideNavList>
                </SideNavMenu>
            </SideNavWrapper>
         </SideNav>

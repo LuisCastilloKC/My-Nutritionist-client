@@ -18,6 +18,23 @@ export const SideNavMenu = styled.div`
 `
 
 export const SideNavTitle = styled.h3`
-    font-size: 13px;
-    color: lightgray;
+    font-size: 15px;
+    color: gray;
+`
+
+export const SideNavList = styled.ul`
+    list-style: none;
+    padding: 5px;
+`
+
+export const SideNavListItem = styled.li`
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+    &:active, &:hover{
+        background-color: rgb(228, 228, 250);
+    }
 `
