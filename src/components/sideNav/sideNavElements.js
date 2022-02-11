@@ -16,3 +16,8 @@ export const SideNavWrapper = styled.div`
 export const SideNavMenu = styled.div`
     margin-bottom: 10px;
 `
+
+export const SideNavTitle = styled.h3`
+    font-size: 13px;
+    color: lightgray;
+`
