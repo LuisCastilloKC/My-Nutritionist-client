@@ -1,6 +1,6 @@
 import React from 'react';
 import { SideNav, SideNavWrapper, SideNavMenu, SideNavTitle, SideNavList, SideNavListItem  } from './sideNavElements';
-import { LineStyle, DateRange, Person, WbSunny, Apple, Restaurant, Home   } from '@material-ui/icons'
+import { LineStyle, DateRange, Group, WbSunny, Apple, Restaurant, Home, PersonAdd, Person   } from '@material-ui/icons'
 
 const Sidenav = () => {
     
@@ -23,7 +23,7 @@ const Sidenav = () => {
                             Appointment
                         </SideNavListItem>
                         <SideNavListItem>
-                            <Person />
+                            <Group />
                             Clients
                         </SideNavListItem>
                    </SideNavList>
@@ -42,6 +42,19 @@ const Sidenav = () => {
                         <SideNavListItem>
                             <Restaurant />
                             Recipes
+                        </SideNavListItem>
+                   </SideNavList>
+               </SideNavMenu>
+               <SideNavMenu>
+                   <SideNavTitle>Register</SideNavTitle>
+                   <SideNavList>
+                        <SideNavListItem>
+                            <Person />
+                            LogIn
+                        </SideNavListItem>
+                        <SideNavListItem>
+                            <PersonAdd />
+                            SignUp
                         </SideNavListItem>
                    </SideNavList>
                </SideNavMenu>
