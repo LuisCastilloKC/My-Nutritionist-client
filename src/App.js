@@ -4,6 +4,7 @@ import GlobalStyles from './styles/Global';
 import TopNav from './components/topNav';
 import Sidenav from './components/sideNav';
 import { SideNavContainer } from './appElements'
+import Home from './pages/home';
 
 const App = () => {
 
@@ -12,7 +13,8 @@ const App = () => {
             <GlobalStyles />
             <TopNav />  
             <SideNavContainer>
-                <Sidenav />              
+                <Sidenav />
+                <Home />              
             </SideNavContainer>
                 <Routes>
 
