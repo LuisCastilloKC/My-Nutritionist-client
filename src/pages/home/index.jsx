@@ -1,9 +1,12 @@
 import React from 'react';
+import FeaturedInfo from '../../components/featuredinfo';
 
 const Home = () => {
 
     return(
-        <div> Home </div>
+        <div className='home'>
+            <FeaturedInfo />
+        </div>
     );
 };
 
