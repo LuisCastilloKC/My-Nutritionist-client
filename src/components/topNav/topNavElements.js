@@ -37,7 +37,7 @@ export const TopNavIconContainer = styled.div`
 `
 
 export const TopIconBadge = styled.span`
-width: 15px;
+    width: 15px;
     position: absolute;
     top: -5px;
     right: 0px;

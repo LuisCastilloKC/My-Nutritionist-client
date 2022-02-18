@@ -1,34 +1,37 @@
 import React from 'react';
-import { PendingActions } from '@material-ui/icons'
+import { Featured } from './featuredInfoElements';
+
+
 
 const FeaturedInfo = () => {
 
     return(
-        <div className='featured'>
+        <Featured>
             <div className='feautedItem'>
                 <span className='feautedTitle'>Title Here</span>
-                <div className='featuredAppointmentContainer'></div>
+                <div className='featuredAppointmentContainer'>
                     <span className='featureAppointmentTotal'>5 appointment </span>
-                    <span className='featureAppointmentPending'>5 Pendind <PendingActions /></span>
+                    <span className='featureAppointmentPending'>5 Pendind </span>
+                </div>
+                <span className='featuredSub'> Comperarted to last</span>
             </div>
-            <span className='featuredSub'> Comperarted to last mon</span>
-        </div>
             <div className='feautedItem'>
                 <span className='feautedTitle'>Title Here</span>
-                <div className='featuredAppointmentContainer'></div>
+                <div className='featuredAppointmentContainer'>
                     <span className='featureAppointmentTotal'>5 appointment </span>
-                    <span className='featureAppointmentPending'>5 Pendind <PendingActions /></span>
+                    <span className='featureAppointmentPending'>5 Pendind </span>
+                </div>
+                <span className='featuredSub'> Comperarted to last</span>
             </div>
-            <span className='featuredSub'> Comperarted to last mon</span>
-        </div>
             <div className='feautedItem'>
                 <span className='feautedTitle'>Title Here</span>
-                <div className='featuredAppointmentContainer'></div>
+                <div className='featuredAppointmentContainer'>
                     <span className='featureAppointmentTotal'>5 appointment </span>
-                    <span className='featureAppointmentPending'>5 Pendind <PendingActions /></span>
+                    <span className='featureAppointmentPending'>5 Pendind </span>
+                </div>
+                <span className='featuredSub'> Comperarted to last</span>
             </div>
-            <span className='featuredSub'> Comperarted to last mon</span>
-        </div>
+        </Featured>
     );
 };
 
