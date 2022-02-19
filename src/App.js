@@ -1,10 +1,10 @@
 //import { Routes, Route } from 'react-router-dom'
 import React from 'react';
 import GlobalStyles from './styles/Global';
-import TopNav from './components/topNav';
-import Sidenav from './components/sideNav';
+import TopNav from './components/topNav/Topnav';
+import Sidenav from './components/sideNav/Sidenav';
 import { SideNavContainer } from './appElements'
-import Home from './pages/home';
+import Home from './pages/home/Home';
 
 
 const App = () => {
