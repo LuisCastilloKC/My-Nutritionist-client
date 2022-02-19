@@ -1,5 +1,5 @@
 import React from 'react';
-import { Featured, FeautedItem, AppointmentProfilePic, ProfileName } from './featuredInfoElements';
+import { Featured, FeautedItem, AppointmentProfilePic, ProfileName, ProfileAge, ProfileContainer, ProfileEditButton } from './featuredInfoElements';
 import  { MoreVert }  from '@material-ui/icons';
 
 
@@ -8,10 +8,12 @@ const FeaturedInfo = () => {
 
     return(
         <Featured>
-            <FeautedItem>
+            <FeautedItem> {/*  wrapper */}
+            <ProfileContainer>
                 <AppointmentProfilePic src="https://cdn1.iconfinder.com/data/icons/website-internet/48/website_-_female_user-512.png"></AppointmentProfilePic>
-                <ProfileName>Title Here</ProfileName>
-                <span className='feautedTitle'><MoreVert /></span>
+                <ProfileName>Luis Castillo <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
+                <ProfileEditButton><MoreVert /></ProfileEditButton>
+            </ProfileContainer>
                 <div className='featuredAppointmentContainer'>
                     <span className='featureAppointmentTotal'>5 appointment </span>
                     <span className='featureAppointmentPending'>5 Pendind </span>
