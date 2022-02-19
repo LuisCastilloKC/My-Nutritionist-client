@@ -38,5 +38,10 @@ export const ProfileAge = styled.div`
 
 export const ProfileEditButton = styled.span`
     color: gray;
-    
+    cursor: pointer;
+    height: 10px;
+
+    &:hover{
+        color: darkgrey;
+    }
 `
