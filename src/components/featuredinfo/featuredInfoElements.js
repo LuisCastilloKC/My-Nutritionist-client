@@ -41,7 +41,8 @@ export const ProfileEditButton = styled.span`
     color: gray;
     cursor: pointer;
     height: 10px;
-    margin-left: 15px;
+    margin-left: 90px;
+    
 
     &:hover{
         color: darkgrey;
@@ -52,4 +53,16 @@ export const ProfileFooterCointainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+`
+export const AppointmentMiddleContainer = styled.div`
+
+`
+export const  AppointmentPhoneNumber = styled.span`
+
+`
+export const AppointmentTime = styled.span`
+
+`
+export const AppointmentConsult = styled.span`
+
 `

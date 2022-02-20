@@ -1,5 +1,9 @@
 import React from 'react';
-import { Featured, FeautedItem, AppointmentProfilePic, ProfileName, ProfileAge, ProfileContainer, ProfileEditButton, ProfileFooterCointainer } from './featuredInfoElements';
+import { Featured, FeautedItem, AppointmentProfilePic, 
+        ProfileName, ProfileAge, ProfileContainer, 
+        ProfileEditButton, ProfileFooterCointainer,
+        AppointmentMiddleContainer, AppointmentPhoneNumber,
+        AppointmentTime, AppointmentConsult } from './featuredInfoElements';
 import  { MoreVert }  from '@material-ui/icons';
 
 
@@ -14,12 +18,12 @@ const FeaturedInfo = () => {
                 <ProfileName>Kay Smith <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
                 <ProfileEditButton><MoreVert /></ProfileEditButton>
             </ProfileContainer>
-                <div className='featuredAppointmentContainer'>
-                    <span className='featureAppointmentTotal'>Tel. (917)854-2414 </span>
-                </div>               
+                <AppointmentMiddleContainer>
+                    <AppointmentPhoneNumber>Tel. (917)854-2414 </AppointmentPhoneNumber>
+                </AppointmentMiddleContainer>               
                 <ProfileFooterCointainer> 
-                    <span className='featuredSub'> 08:00 AM</span>
-                    <span className='featuredSub'>Consult</span>
+                    <AppointmentTime> 08:00 AM</AppointmentTime>
+                    <AppointmentConsult>Consult</AppointmentConsult>
                 </ProfileFooterCointainer>
             </FeautedItem>
             <FeautedItem>
