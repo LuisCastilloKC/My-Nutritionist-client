@@ -5,7 +5,7 @@ export const Featured = styled.div`
     display: flex;
     justify-content: space-between;
 `
-export const FeautedItem = styled.div`
+export const FeauturedApoointmentItem = styled.div`
     flex: 1;
     margin: 0px 20px;
     padding: 15px;
@@ -49,16 +49,16 @@ export const ProfileEditButton = styled.span`
     }
 `
 
+export const AppointmentMiddleContainer = styled.div`
+// Ready to Style
+`
+export const  AppointmentPhoneNumber = styled.span`
+// Ready to Style
+`
 export const ProfileFooterCointainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-`
-export const AppointmentMiddleContainer = styled.div`
-`
-export const  AppointmentPhoneNumber = styled.span`
-
-
 `
 export const AppointmentTime = styled.span`
 

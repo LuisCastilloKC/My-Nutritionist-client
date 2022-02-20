@@ -1,12 +1,12 @@
 import React from 'react';
-import FeaturedInfo from '../../components/featuredinfo/FeaturedInfo';
+import FeaturedAppointments from '../../components/featuredAppointments/FeaturedAppointments';
 import { HomeCSS } from './homeElements';
 
 const Home = () => {
 
     return(
         <HomeCSS>
-            <FeaturedInfo />
+            <FeaturedAppointments/>
         </HomeCSS>
     );
 };
