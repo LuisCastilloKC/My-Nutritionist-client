@@ -55,14 +55,21 @@ export const ProfileFooterCointainer = styled.div`
     margin-top: 15px;
 `
 export const AppointmentMiddleContainer = styled.div`
-
 `
 export const  AppointmentPhoneNumber = styled.span`
+
 
 `
 export const AppointmentTime = styled.span`
 
 `
 export const AppointmentConsult = styled.span`
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover{
+        color: darkgreen;
+    }
 
 `
