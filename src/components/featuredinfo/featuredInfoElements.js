@@ -19,12 +19,13 @@ export const FeautedItem = styled.div`
 export const ProfileContainer = styled.div`
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 `
 
 export const AppointmentProfilePic = styled.img`
     width: 50px;
     height: 50px;
-    border-radius: 50%;    
+    border-radius: 50%;
 `
 
 export const ProfileName = styled.h3`
@@ -40,8 +41,15 @@ export const ProfileEditButton = styled.span`
     color: gray;
     cursor: pointer;
     height: 10px;
+    margin-left: 15px;
 
     &:hover{
         color: darkgrey;
     }
+`
+
+export const ProfileFooterCointainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
 `
