@@ -29,7 +29,7 @@ export const AppointmentProfilePic = styled.img`
 `
 
 export const ProfileName = styled.h3`
-    padding-right: 50px;
+    padding-right: 5px;
 `
 
 export const ProfileAge = styled.div`
@@ -37,15 +37,18 @@ export const ProfileAge = styled.div`
     font-size: 14px;
 `
 
-export const ProfileEditButton = styled.span`
+export const ProfileEditButton = styled.div`
+    text-align: center;
     color: gray;
-    cursor: pointer;
-    height: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
     margin-left: 90px;
-    
-
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  
     &:hover{
-        color: darkgrey;
+        background-color: #F5F5F5;
     }
 `
 
@@ -67,7 +70,7 @@ export const AppointmentConsult = styled.span`
     color: green;
     font-weight: bold;
     cursor: pointer;
-
+    
     &:hover{
         color: darkgreen;
     }

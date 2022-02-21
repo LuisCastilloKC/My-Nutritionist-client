@@ -15,7 +15,7 @@ const FeaturedAppointments = () => {
             <FeauturedApoointmentItem>
                 <ProfileContainer>
                     <AppointmentProfilePic src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/girl-2-512.png"></AppointmentProfilePic>
-                    <ProfileName>Kay Smith <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
+                    <ProfileName>Ross Martinez <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
                     <ProfileEditButton><MoreVert /></ProfileEditButton>
                 </ProfileContainer>
                 <AppointmentMiddleContainer>
@@ -29,28 +29,28 @@ const FeaturedAppointments = () => {
             <FeauturedApoointmentItem>
                 <ProfileContainer>
                     <AppointmentProfilePic src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/boy-2-512.png"></AppointmentProfilePic>
-                    <ProfileName>Kay Smith <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
+                    <ProfileName>Mike Trout <br /><ProfileAge>27 yrs</ProfileAge></ProfileName>
                     <ProfileEditButton><MoreVert /></ProfileEditButton>
                 </ProfileContainer>
                 <AppointmentMiddleContainer>
                     <AppointmentPhoneNumber>Tel. (917)854-2414 </AppointmentPhoneNumber>
                 </AppointmentMiddleContainer>               
                 <ProfileFooterCointainer> 
-                    <AppointmentTime> 08:00 AM</AppointmentTime>
+                    <AppointmentTime> 10:00 AM</AppointmentTime>
                     <AppointmentConsult>Consult</AppointmentConsult>
                 </ProfileFooterCointainer>
             </FeauturedApoointmentItem>
             <FeauturedApoointmentItem>
                 <ProfileContainer>
                     <AppointmentProfilePic src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/girl-2-512.png"></AppointmentProfilePic>
-                    <ProfileName>Kay Smith <br /><ProfileAge>32 yrs</ProfileAge></ProfileName>
+                    <ProfileName>Kay Smith <br /><ProfileAge>25 yrs</ProfileAge></ProfileName>
                     <ProfileEditButton><MoreVert /></ProfileEditButton>
                 </ProfileContainer>
                 <AppointmentMiddleContainer>
                     <AppointmentPhoneNumber>Tel. (917)854-2414 </AppointmentPhoneNumber>
                 </AppointmentMiddleContainer>               
                 <ProfileFooterCointainer> 
-                    <AppointmentTime> 08:00 AM</AppointmentTime>
+                    <AppointmentTime> 11:30 AM</AppointmentTime>
                     <AppointmentConsult>Consult</AppointmentConsult>
                 </ProfileFooterCointainer>
             </FeauturedApoointmentItem>
