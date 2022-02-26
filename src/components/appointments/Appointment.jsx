@@ -1,13 +1,13 @@
 import React from 'react';
-
+import { AppointmentTable, AppointmentTitle } from './appointmentElements'
 
 const Appointment = () => {
 
     return(
-        <div className='appointment'>
-            Appointment List Here
-        </div>
+        <AppointmentTable>
+            <AppointmentTitle>Appointments</AppointmentTitle>
+        </AppointmentTable>
     );
 };
 
-export default Appointment
+export default Appointment;
