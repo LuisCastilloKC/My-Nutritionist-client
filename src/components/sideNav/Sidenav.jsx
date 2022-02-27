@@ -16,15 +16,15 @@ const Sidenav = () => {
                         </SideNavListItem>
                         <SideNavListItem>
                             <LineStyle />                       
-                            Meal Plan
+                            <NavLink to="/mealplan">Meal Plan</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <DateRange/>
-                            Appointment
+                            <NavLink to="/appointment">Appointment</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <Group />
-                            Clients
+                            <NavLink to="/client">Client</NavLink>
                         </SideNavListItem>
                    </SideNavList>
                </SideNavMenu>
@@ -33,15 +33,15 @@ const Sidenav = () => {
                    <SideNavList>
                         <SideNavListItem>
                             <WbSunny />
-                            Summer
+                            <NavLink to="/summer">Summer</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <Apple />
-                            Foods
+                            <NavLink to="/food">Food</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <Restaurant />
-                            Recipes
+                            <NavLink to="/recipes">Recipes</NavLink>
                         </SideNavListItem>
                    </SideNavList>
                </SideNavMenu>
@@ -50,11 +50,11 @@ const Sidenav = () => {
                    <SideNavList>
                         <SideNavListItem>
                             <Person />
-                            LogIn
+                            <NavLink to="/login">LogIn</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <PersonAdd />
-                            SignUp
+                            <NavLink to="/signup">SignUp</NavLink>
                         </SideNavListItem>
                    </SideNavList>
                </SideNavMenu>
