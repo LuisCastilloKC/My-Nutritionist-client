@@ -5,9 +5,10 @@ import GlobalStyles from './styles/Global';
 import TopNav from './components/topNav/Topnav';
 import Sidenav from './components/sideNav/Sidenav';
 import { SideNavContainer } from './appElements'
-import Home from './pages/home/Home';
+import AppointmentRoute from './routes/appointments/AppointmentRoute';
 import Appointment from './components/appointments/Appointment';
-import LogIn from './pages/login/LogIn';
+import LogIn from './routes/login/LogIn';
+import HomeRoute from './routes/home/HomeRoute';
 
 
 const App = () => {
@@ -19,8 +20,8 @@ const App = () => {
             <SideNavContainer>
                 <Sidenav />              
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="appointments" element={<Appointment />} />
+                <Route path="/" element={<HomeRoute />} />
+                <Route path="appointments" element={<AppointmentRoute />} />
                 <Route path="clients" element={<Appointment />} />
                 <Route path="login" element={<LogIn />} />
                 <Route path="signup" element={<Appointment />} />

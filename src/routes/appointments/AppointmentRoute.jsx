@@ -3,7 +3,7 @@ import FeaturedAppointments from '../../components/featuredAppointments/Featured
 import Appointment from '../../components/appointments/Appointment';
 import { CenterBox } from '../../styles/centerBoxElements';
 
-const Home = () => {
+const AppointmentRoute = () => {
 
     return(
         <CenterBox>
@@ -13,4 +13,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default AppointmentRoute;
