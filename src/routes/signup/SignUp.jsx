@@ -1,9 +1,12 @@
 import React from 'react';
+import { CenterBox } from '../../styles/centerBoxElements';
 
 const SignUp = () =>{
 
     return(
-        <div> Sign Up</div>
+        <CenterBox>
+            
+        </CenterBox>
     );
 };
 

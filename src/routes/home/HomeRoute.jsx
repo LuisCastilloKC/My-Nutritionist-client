@@ -5,7 +5,7 @@ const HomeRoute = () =>{
 
     return(
         <CenterBox>
-            Home Go Here
+            <div>Home Here</div>
         </CenterBox>
     );
 };
