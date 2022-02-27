@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink as Link } from 'react-router-dom'
 
 export const SideNav = styled.div`
     flex: 1;
@@ -37,4 +38,9 @@ export const SideNavListItem = styled.li`
     &:active, &:hover{
         background-color: rgb(228, 228, 250);
     }
+`
+
+export const NavLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
 `

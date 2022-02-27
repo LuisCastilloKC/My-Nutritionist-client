@@ -7,6 +7,7 @@ import Sidenav from './components/sideNav/Sidenav';
 import { SideNavContainer } from './appElements'
 import Home from './pages/home/Home';
 import Appointment from './components/appointments/Appointment';
+import LogIn from './pages/login/LogIn';
 
 
 const App = () => {
@@ -16,18 +17,17 @@ const App = () => {
             <GlobalStyles />
             <TopNav />  
             <SideNavContainer>
-                <Sidenav />
-                <Home />              
-            </SideNavContainer>
-
+                <Sidenav />              
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="appointments" element={<Appointment />} />
                 <Route path="clients" element={<Appointment />} />
-                <Route path="login" element={<Appointment />} />
+                <Route path="login" element={<LogIn />} />
                 <Route path="signup" element={<Appointment />} />
                 <Route path="mealplan" element={<Appointment />} />
             </Routes>
+            </SideNavContainer>
+
                
         </div>
         );

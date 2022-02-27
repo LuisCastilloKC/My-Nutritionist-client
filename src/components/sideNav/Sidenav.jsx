@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideNav, SideNavWrapper, SideNavMenu, SideNavTitle, SideNavList, SideNavListItem  } from './sideNavElements';
+import { SideNav, SideNavWrapper, SideNavMenu, SideNavTitle, SideNavList, SideNavListItem, NavLink  } from './sideNavElements';
 import { LineStyle, DateRange, Group, WbSunny, Apple, Restaurant, Home, PersonAdd, Person   } from '@material-ui/icons'
 
 const Sidenav = () => {
@@ -12,7 +12,7 @@ const Sidenav = () => {
                    <SideNavList>
                         <SideNavListItem>
                             <Home />                       
-                            Home
+                            <NavLink to="/">Home</NavLink>
                         </SideNavListItem>
                         <SideNavListItem>
                             <LineStyle />                       

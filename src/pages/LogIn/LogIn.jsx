@@ -1,9 +1,10 @@
 import React from 'react';
+import { CenterBox } from '../../styles/centerBoxElements';
 
 const LogIn = () => {
 
     return(
-        <div></div>
+        <CenterBox> Log In</CenterBox>
     );
 };
 

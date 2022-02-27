@@ -1,15 +1,15 @@
 import React from 'react';
 import FeaturedAppointments from '../../components/featuredAppointments/FeaturedAppointments';
 import Appointment from '../../components/appointments/Appointment';
-import { HomeCSS } from './homeElements';
+import { CenterBox } from '../../styles/centerBoxElements';
 
 const Home = () => {
 
     return(
-        <HomeCSS>
+        <CenterBox>
             <FeaturedAppointments/>
             <Appointment />
-        </HomeCSS>
+        </CenterBox>
     );
 };
 
