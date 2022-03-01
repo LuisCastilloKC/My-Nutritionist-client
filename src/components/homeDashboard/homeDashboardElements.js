@@ -19,7 +19,9 @@ export const HomeItems = styled.div`
 `
 
 export const HomeBody = styled.div`
-
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 `
 
 
