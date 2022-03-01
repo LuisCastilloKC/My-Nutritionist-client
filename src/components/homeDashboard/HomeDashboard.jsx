@@ -1,15 +1,37 @@
 import React from 'react';
+import { HomeBody, HomeContainer, HomeItems } from './homeDashboardElements';
+
 
 const HomeDashboard = () =>{
 
     return(
-        <div className='homeContainer'>
-            <div className='homeItems'>
-                <div className='homeBody'>
+        <HomeContainer>
+            <HomeItems>
+                <HomeBody>
                     <div>Image / Icon</div>
-                </div>
-            </div>
-        </div>
+                </HomeBody>
+            </HomeItems>
+            <HomeItems>
+                <HomeBody>
+                    <div>Image / Icon</div>
+                </HomeBody>
+            </HomeItems>
+            <HomeItems>
+                <HomeBody>
+                    <div>Image / Icon</div>
+                </HomeBody>
+            </HomeItems>
+            <HomeItems>
+                <HomeBody>
+                    <div>Image / Icon</div>
+                </HomeBody>
+            </HomeItems>
+            <HomeItems>
+                <HomeBody>
+                    <div>Image / Icon</div>
+                </HomeBody>
+            </HomeItems>
+        </HomeContainer>
     );
 };
 
