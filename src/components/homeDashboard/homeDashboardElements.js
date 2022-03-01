@@ -13,9 +13,13 @@ export const HomeItems = styled.div`
     width: 220px;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    &:hover {
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+     }
 `
 
 export const HomeBody = styled.div`

@@ -8,7 +8,7 @@ const HomeDashboard = () =>{
         <HomeContainer>
             <HomeItems>
                 <HomeBody>
-                    <Client src="https://cdn0.iconfinder.com/data/icons/infectious-pandemics/480/07-healthy-512.png" />
+                    <Client src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/users-alt-512.png" />
                 </HomeBody>
             </HomeItems>
             <HomeItems>
@@ -23,12 +23,12 @@ const HomeDashboard = () =>{
             </HomeItems>
             <HomeItems>
                 <HomeBody>
-                    <Summer src="https://cdn2.iconfinder.com/data/icons/food-and-drink-free/24/Food_Drink_Foods_Noodle_Ramen_Bowl_Meal-512.png" />          
+                    <Summer src="https://cdn0.iconfinder.com/data/icons/infectious-pandemics/480/07-healthy-512.png" />          
                 </HomeBody>
             </HomeItems>
             <HomeItems>
                 <HomeBody>
-                    <Food src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/girl-2-512.png" />            
+                    <Food src="https://cdn2.iconfinder.com/data/icons/international-food/64/curry-512.png" />            
                 </HomeBody>
             </HomeItems> 
         </HomeContainer>
