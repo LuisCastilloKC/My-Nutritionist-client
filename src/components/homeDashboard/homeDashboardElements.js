@@ -23,5 +23,31 @@ export const HomeBody = styled.div`
     justify-content: space-around;
     margin-bottom: 20px;
 `
+export const Client = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+`
+export const Appointment = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+`
+export const MealPlan = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+`
+export const Summer = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+`
+export const Food = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+`
 
 
