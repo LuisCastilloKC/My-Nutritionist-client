@@ -8,7 +8,14 @@ export const HomeContainer = styled.div`
 `
 
 export const HomeItems = styled.div`
+    flex: 1;
+    margin: 0px 20px;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
 
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 `
 
 export const HomeBody = styled.div`
