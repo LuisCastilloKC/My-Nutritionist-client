@@ -1,11 +1,12 @@
 import React from 'react';
+import HomeDashboard from '../../components/homeDashboard/HomeDashboard';
 import { CenterBox } from '../../styles/centerBoxElements';
 
 const HomeRoute = () =>{
 
     return(
         <CenterBox>
-            <div>Home Here</div>
+            <HomeDashboard />
         </CenterBox>
     );
 };

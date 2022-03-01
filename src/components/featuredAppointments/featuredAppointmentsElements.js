@@ -5,7 +5,7 @@ export const Featured = styled.div`
     display: flex;
     justify-content: space-between;
 `
-export const FeauturedApoointmentItem = styled.div`
+export const FeauturedAppointmentItem = styled.div`
     flex: 1;
     margin: 0px 20px;
     padding: 15px;
