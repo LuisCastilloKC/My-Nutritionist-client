@@ -13,7 +13,7 @@ const HomeDashboard = () =>{
             </HomeItems>
             <HomeItems>
                 <HomeBody>
-                    <Appointment src="https://cdn2.iconfinder.com/data/icons/food-and-drink-free/24/Food_Drink_Foods_Noodle_Ramen_Bowl_Meal-512.png" />
+                    <Appointment src="https://cdn0.iconfinder.com/data/icons/business-startup-10/50/35-512.png" />
                 </HomeBody>
             </HomeItems>
             <HomeItems>
