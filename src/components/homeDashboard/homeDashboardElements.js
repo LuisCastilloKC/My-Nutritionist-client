@@ -29,6 +29,12 @@ export const HomeBody = styled.div`
     justify-content: space-around;
     margin-bottom: 20px;
 `
+
+
+
+// The style code bellow is repetitive, How can I make the style code below better?
+
+
 export const Client = styled.img`
     width: 50px;
     height: 50px;
