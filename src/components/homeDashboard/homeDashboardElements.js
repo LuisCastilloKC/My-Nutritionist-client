@@ -30,30 +30,7 @@ export const HomeBody = styled.div`
     margin-bottom: 20px;
 `
 
-
-
-// The style code bellow is repetitive, How can I make the style code below better?
-
-
-export const Client = styled.img`
+export const Image = styled.img`
     width: 50px;
     height: 50px;
 `
-export const Appointment = styled.img`
-    width: 50px;
-    height: 50px;
-`
-export const MealPlan = styled.img`
-    width: 50px;
-    height: 50px;
-`
-export const Summer = styled.img`
-    width: 50px;
-    height: 50px;
-`
-export const Food = styled.img`
-    width: 50px;
-    height: 50px;
-`
-
-
