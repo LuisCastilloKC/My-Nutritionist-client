@@ -9,7 +9,7 @@ const HomeDashboard = () =>{
             <HomeItems>
                 <HomeBody>
                     <Image src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/users-alt-512.png" /> 
-                    <h4>Patientents</h4> 
+                    <h4>Patients</h4> 
                 </HomeBody>
             </HomeItems>
             <HomeItems>
