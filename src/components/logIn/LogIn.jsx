@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{ useState } from 'react';
 
 const LogIn = () =>{
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
     return(
-        <div>
-            <h1> LogIn Here</h1>
-        </div>
+      <div>
+          <form>
+
+          </form>
+      </div>
     );
 };
 
