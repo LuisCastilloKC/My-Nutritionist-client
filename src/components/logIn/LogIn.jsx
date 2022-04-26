@@ -5,13 +5,13 @@ const LogIn = () =>{
     const [password, setPassword] = useState("");
 
     return(
-      <div>
+      <div className='login'>
           <form>
-            <label>User Name</label>
-            <input type="text" />
+            <label>Email</label>
+            <input type="email" value={email} onChange={(e)=> setEmail(e.target.value)} />
             <label>Password</label>
-            <input type="text" />
-            <button>Login</button>
+            <input type="password" value={(password)} onChange={(e)=> setPassword(e.target.value)} />
+            <button type="submit">Login</button>
           </form>
       </div>
     );

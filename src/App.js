@@ -22,7 +22,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<HomeRoute />} />
                 <Route path="/appointment" element={<AppointmentRoute />} />
-                <Route path="login" element={<LogIn />} />
+                <Route path="/login" element={<LogIn />} />
                 <Route path="signup" element={<SignUp />} />
             </Routes>
             </SideNavContainer>
