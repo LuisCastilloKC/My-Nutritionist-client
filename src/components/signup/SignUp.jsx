@@ -25,13 +25,13 @@ const SignUp = () => {
             <form>
                 <h2>Sign Up</h2>
                 <label>First Name:</label>
-                <input type="text" value={inputsValue.firstName} onChange={handleInputChange} name="firstName" />
+                <input type="text" value={inputsValue.firstName} onChange={handleInputChange} name="firstName" placeholder="First Name" />
                 <label>Last Name:</label>
-                <input type="text" value={inputsValue.lastName} onChange={handleInputChange} name="lastName" />
+                <input type="text" value={inputsValue.lastName} onChange={handleInputChange} name="lastName"  placeholder="Last Name" />
                 <label>Email:</label>
-                <input type="email" value={inputsValue.email} onChange={handleInputChange} name="email" />
+                <input type="email" value={inputsValue.email} onChange={handleInputChange} name="email" placeholder="Email" />
                 <label>Password:</label>
-                <input type="password" value={inputsValue.password} onChange={handleInputChange} name="password" />
+                <input type="password" value={inputsValue.password} onChange={handleInputChange} name="password" placeholder="Password" />
                 <button type="submit">SingUp</button>
             </form>
         </div>
