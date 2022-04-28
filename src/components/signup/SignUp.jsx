@@ -17,12 +17,19 @@ const SignUp = () => {
             ...inputsValue,
             [name]: value
         })
+    }
 
+    const handleSubmit = ()=> {
+        e.preventDefault()
+        console.log(inputsValue.firstName)
+        console.log(inputsValue.lastName)
+        console.log(inputsValue.email)
+        console.log(inputsValue.password)
     }
 
     return(
         <div className='signup'> 
-            <form>
+            <form onSubmit={handleSubmit}>
                 <h2>Sign Up</h2>
                 <label>First Name:</label>
                 <input type="text" value={inputsValue.firstName} onChange={handleInputChange} name="firstName" placeholder="First Name" />
