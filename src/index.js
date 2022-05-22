@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { configureStore } from '@reduxjs/toolkit';
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { rootReducer } from './reducer/rootReducer';
 
-const store = configureStore({
-  reducer: {
-    //Users
-  }
-})
+const store = createStore(
+    rootReducer, 
+    composeWithDevTools(applyMiddleware(thunk))
+  )
 
 ReactDOM.render(
   <BrowserRouter>
